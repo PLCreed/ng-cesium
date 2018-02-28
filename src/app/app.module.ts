@@ -7,7 +7,7 @@ import { NgCesiumModule } from './ng-cesium/ng-cesium.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, NgCesiumModule],
+  imports: [BrowserModule, NgCesiumModule.forRoot()],
   providers: [],
   bootstrap: [AppComponent]
 })
